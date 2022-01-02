@@ -6,6 +6,9 @@ This service runs on port 5001 of my server.
 
 I Create a file named users.json under the database directory and add the following to the file:
 
+
+
+
 {
     "Siva_Prasad": {
         "id":1,
@@ -23,8 +26,19 @@ I Create a file named users.json under the database directory and add the follow
         "verified":0
     }
 }
+
+
+
+
+
+
 The next thing I create another file named todo.json which contains the data of my lists.
  Create the file and add the following data to it:
+ 
+ 
+ 
+ 
+ 
 
 {
     "Siva_prasad": {
@@ -45,6 +59,11 @@ The next thing I create another file named todo.json which contains the data of 
         ]
     }
 }
+
+
+
+
+
 So, now we are done with the database part for our application. Next, we have to build our services. So, 
 let's start with writing our User service.
 
